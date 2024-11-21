@@ -434,3 +434,76 @@ To see this in action, try to print the alphabet variable at the end of your cod
 You should see an error message indicating that alphabet is not defined. This is because alphabet is defined inside the caesar function and is not accessible outside of it.
 
 ****************************************************************************
+
+Step 51
+Now, fix the error by removing the line that tries to print the alphabet variable outside of the caesar function.
+
+****************************************************************************
+
+Step 52
+To execute, a function needs to be called (or invoked) by appending a pair of parentheses after its name, like this:
+
+Example Code
+function_name()
+
+At the end of your code, call your caesar function. Pay attention to the indentation.
+
+****************************************************************************
+
+Step 53
+Now you should see the output again. Although this approach works, it doesn't significantly enhance the code's reusability. Repeatedly calling your function will result in the same outcome. However, functions can be declared with parameters to introduce versatility and customization:
+
+Example Code:
+def function_name(param_1, param_2):
+    <code>
+
+Parameters are variables that you can use inside your function. A function can be declared with different number of parameters. In the example above, param_1 and param_2 are parameters.
+
+Modify your function declaration so that it takes two parameters called message and offset.
+
+After that, you'll see an error appear in the terminal. You'll see how to solve it in the next steps.
+
+****************************************************************************
+
+Step 54
+Inside your function body, rename the text and shift variables to message and offset, respectively.
+
+****************************************************************************
+
+Step 55
+Currently, your code raises a TypeError, because the caesar function is defined with two parameters (message and offset), therefore it expects to be called with two arguments.
+
+Calling caesar() without the required arguments stops the execution of the code.
+
+Give message and offset values, by passing text and shift as arguments to the caesar function call.
+
+****************************************************************************
+
+Step 56
+At the bottom of your code, after your existing caesar(text, shift) call, call your function again.
+
+This time, pass the text variable and the integer 13 as arguments.
+
+****************************************************************************
+
+Step 57
+Currently, every single letter is always encrypted with the same letter, depending on the specified offset. What if the offset were different for each letter? That would be much more difficult to decrypt. This algorithm is referred to as the Vigenère cipher, where the offset for each letter is determined by another text, called the key.
+
+Start transforming your Caesar cipher into a Vigenère cipher by removing the two function calls.
+
+****************************************************************************
+
+Step 58
+Now modify your function declaration: change the function name into vigenere and the second parameter into key.
+
+****************************************************************************
+
+Step 59
+Delete your shift variable. Then, declare a new variable called custom_key and assign the value of the string 'python' to this variable.
+
+****************************************************************************
+
+Step 60
+Since your key is shorter than the text that you will have to encrypt, you will need to repeat it to generate the whole encrypted text. At the beginning of your function body, declare a key_index variable and set it to zero.
+
+****************************************************************************
