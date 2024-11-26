@@ -709,3 +709,39 @@ Step 90
 Below the print() call you just added, add another print() call to print Key: python by concatenating the string 'Key: ' and the value of the custom_key variable.
 
 ****************************************************************************
+
+Step 91
+In Python, there's a way to easily format strings. f-strings enable you to interpolate values in your strings.
+
+Interpolation means writing placeholders that will be replaced by the specified values when the program runs. For example, you can get the same result of 'Encrypted text: ' + text with f'Encrypted text: {text}'. You need to put an f before the quotes to create the f-string and write the variables or expressions you want to interpolate between curly braces.
+
+Modify the first print() call to use an f-string.
+
+****************************************************************************
+
+Step 92
+Next, modify print('Key: ' + custom_key) to use an f-string.
+
+****************************************************************************
+
+Step 93
+The newline character \n is a special sequence used to represent a new line. You can write a backslash \ followed by an n as a normal sequence of characters in a string and it will be replaced by a new line in the output when the program runs.
+
+Put a newline character at the beginning of your first print call and see the output.
+
+****************************************************************************
+
+Step 94
+Uncomment the decryption variable and change its value by passing text as the first argument to decrypt.
+
+****************************************************************************
+
+Step 95
+Uncomment your last print() call and change it to use the f-string f'\nDecrypted text: {decryption}\n' as the argument.
+
+****************************************************************************
+
+Step 96
+Wait a minute! You cannot decrypt anything with the wrong key. Try with 'happycoding'.
+
+With that, your cipher project is complete.
