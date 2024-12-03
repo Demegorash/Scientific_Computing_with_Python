@@ -224,3 +224,30 @@ Step 30
 Outside of the if statement, add number to sum_of_even_digits. Also, remove the print call.
 
 ***************************************************************************************************************
+
+Step 31
+Below the second for loop of the verify_card_number function, create a variable named total, and assign it the value of the sum of the odd and even digits. Print total to the console.
+
+***************************************************************************************************************
+
+Step 32
+Return the result of comparing 0 to total modulo 10.
+
+***************************************************************************************************************
+
+Step 33
+Adjust the verify_card_number call such that if it returns True, print 'VALID!' to the console. Otherwise, print 'INVALID!'.
+
+***************************************************************************************************************
+
+Step 34
+Change the value of card_number such that 'INVALID!' is printed to the console.
+
+***************************************************************************************************************
+
+Step 35
+Well done on completing this project.
+
+As a final step, remove the print call from the verify_card_number function, and change the card_number back to something valid.
+
+***************************************************************************************************************
