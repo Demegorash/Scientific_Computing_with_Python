@@ -1,0 +1,79 @@
+Learn Lambda Functions by Building an Expense Tracker
+
+Thank you for the class to https://www.freecodecamp.org
+
+Here is the link for the Project:  https://www.freecodecamp.org/learn/scientific-computing-with-python/learn-lambda-functions-by-building-an-expense-tracker/step-1
+
+I will load this with my code to GitHub as well.  I am learning about how to code, I am not an expert, however I am doing this as a guide for the future.
+
+Hope you enjoy it!
+
+Lambda functions give you a concise way to write small, throwaway functions in your code.
+
+In this project, you'll explore the power of Lambda Functions by creating an expense tracker. Your resulting app will demonstrate how you can use Lambda Functions for efficient, streamlined operations.
+
+*******************************************************************************************************************************************************************************
+
+Step 1
+Before starting with the project, you are going to learn about lists.
+
+Unlike numbers and strings, a list is a data type that works as a container for other values:
+
+Example Code:
+example_list = [1, 2, 3, 4]
+empty_list = []
+
+The list is characterized by the square brackets around all the values, and a comma between the values, like: ["A", "happy", "list"]. If the list does not contain any values, then it is an empty list: [].
+
+A list can contain different data types: [1, "Up", ["Down", "Twice"]]. That includes all possible data types. It can also contain another list!
+
+Create a variable called my_list and assign to it an empty list.
+
+*******************************************************************************************************************************************************************************
+
+Step 2
+To add items to a list, you can write them between the square brackets, separating the values with commas.
+
+Add the numbers 1 and 2 inside the list.
+
+*******************************************************************************************************************************************************************************
+
+Step 3
+Python has a handful of list methods. Such as methods for adding or removing list items.
+
+You can add an item to the end of a list using the append() method. For example:
+
+Example Code:
+example_list = [4, 5, 6]
+
+example_list.append(7)
+
+example_list now is [4, 5, 6, 7].
+
+Try to use the append() method to add 3 to my_list. Then print the list.
+
+*******************************************************************************************************************************************************************************
+
+Step 4
+You can also access a single element to get its value.
+
+Lists are zero-indexed like strings are. That means that the first element is at index 0, the second element is at index 1 and so on.
+
+To access an element you use bracket notation. For example, example_list[1] is accessing the element at index 1, the second element, of example_list.
+
+Print the first element of my_list.
+
+*******************************************************************************************************************************************************************************
+
+Step 5
+Python lists are mutable which means that the value of the list items can be changed. You can change the value of an element using the bracket notation.
+
+Example Code:
+example_list = [4, 5, 6, 7]
+example_list[1] = 'oh'
+
+This will make example_list have value of [4, 'oh', 6, 7].
+
+Change the first element of my_list to 0, then print the list to check the value.
+
+*******************************************************************************************************************************************************************************
