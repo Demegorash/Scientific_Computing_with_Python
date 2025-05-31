@@ -77,3 +77,86 @@ This will make example_list have value of [4, 'oh', 6, 7].
 Change the first element of my_list to 0, then print the list to check the value.
 
 *******************************************************************************************************************************************************************************
+
+Step 6
+The insert method can add an element at any position in a list. The first argument is the position at which the element has to be added, and the second argument is the element to add. For example, here's how to add a new element in the third position of example_list:
+
+Example Code:
+example_list = [4, 5, 6, 7]
+
+example_list.insert(2, 5.5)
+
+print(example_list) # [4, 5, 5.5, 6, 7]
+
+Using insert(), add 1 to my_list in the proper position so that it is counting upward, then print the list.
+
+*******************************************************************************************************************************************************************************
+
+Step 7
+The pop() method can be used to remove an element from a list. By default, it removes the last element of the list. You can pass an index as the argument to the method, and it will remove the element at the given index.
+
+Example Code:
+fruits_list = ["cherry", "lemon", "tomato", "apple", "orange"]
+
+fruits_list.pop(2)
+
+print(fruits_list) # ["cherry", "lemon", "apple", "orange"]
+
+In this case, fruits_list.pop(2) removes the element at index 2 of the list.
+
+Use pop() to remove the last element from my_list, then print my_list.
+
+*******************************************************************************************************************************************************************************
+
+Step 8
+Now that you have explored lists, remove all of the code you wrote for your review so you can begin the project.
+
+*******************************************************************************************************************************************************************************
+
+Step 9
+In this project, you're going to build a simple, yet functional expense tracker in Python.
+
+Start by defining a function named add_expense that takes three parameters: expenses, amount and category. Use the pass keyword to fill the function body.
+
+*******************************************************************************************************************************************************************************
+
+Step 10
+Create an empty list named expenses. You will use it to store each of your expenses.
+
+*******************************************************************************************************************************************************************************
+
+Step 11
+The expenses parameter of your add_expense function will be a list of expenses. You want to be able to add items at the end of your list. For that you'll use the .append() list method.
+
+Add a call to the .append() method on the expenses list. Don't pass any arguments to .append() for now.
+
+*******************************************************************************************************************************************************************************
+
+Step 12
+A dictionary is another built-in data type in Python. A dictionary is a collection of data in the form of key-value pairs. Dictionaries are defined with curly braces ({}) and they contain key-value pairs separated by commas. Each key is followed by a colon (:) and the value:
+
+Example Code:
+{'amount': 50.0, 'category': 'Food'}
+
+In the example above, 'amount' and 'category' are keys, and 50.0 and 'Food' are their corresponding values.
+
+Create a dictionary with a key 'amount' and value of the amount parameter and pass your new dictionary to the .append() call.
+
+*******************************************************************************************************************************************************************************
+
+Step 13
+Add another key-value pair to the dictionary you are appending to the expense list. Use the string 'category' as the key, and the category parameter as the value.
+
+*******************************************************************************************************************************************************************************
+
+Step 14
+Next, define a function named print_expenses that takes one parameter expenses. This function will later be used to display each expense in your list.
+
+Fill the body of your new function with a pass statement.
+
+*******************************************************************************************************************************************************************************
+
+Step 15
+Inside the print_expenses function, create a for loop that iterates over each item in the expenses list. Use expense as the loop variable and move pass inside the loop body.
+
+*******************************************************************************************************************************************************************************
