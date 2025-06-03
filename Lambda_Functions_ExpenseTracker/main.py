@@ -1,5 +1,4 @@
 ''' 
-
 This will be theory.  After step 8 we need to remove it, however we are going to comment, but from 7 to begginging this was not commented.
 
 my_list = [1,2]
@@ -17,7 +16,6 @@ print(my_list)
 
 my_list.pop()
 print(my_list)
-
 '''
 
 def add_expense(expenses, amount, category):
@@ -25,6 +23,16 @@ def add_expense(expenses, amount, category):
 
 def print_expenses(expenses):
     for expense in expenses:
-        pass
+        print(f"Amount: {expense['amount']}, Category: {expense['category']}")
+        
+def total_expenses(expenses):
+    lambda expense: expense["amount"]
+
+''' 
+Some steps to understand the lambda function
+
+test = lambda x: x * 2
+print(sum(map(test, [2, 3, 5, 8])))
+'''
 
 expenses = []
