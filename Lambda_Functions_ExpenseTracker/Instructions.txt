@@ -250,3 +250,107 @@ In the total_expenses function, you'll now integrate a lambda function. Replace 
 expense is expected to be a dictionary, and your lambda function should return the value of the 'amount' key in the expense dictionary.
 
 *******************************************************************************************************************************************************************************
+
+Step 26
+Now, call map() passing your lambda function as the first argument and the expenses list as the second argument.
+
+*******************************************************************************************************************************************************************************
+
+Step 27
+Finally, pass your map() call to the sum() function to obtain the total expenses and return the result.
+
+*******************************************************************************************************************************************************************************
+
+Step 28
+Next, define a function named filter_expenses_by_category that takes two parameters: expenses and category. Use pass to fill the function body.
+
+*******************************************************************************************************************************************************************************
+
+Step 29
+Within the filter_expenses_by_category function, replace pass with a lambda function. Use expense as the parameter and evaluate the comparison between the value of the 'category' key of the expense dictionary and category using the equality operator.
+
+*******************************************************************************************************************************************************************************
+
+Step 30
+The filter() function allows you to select items from an iterable, such as a list, based on the output of a function:
+
+Example Code:
+filter(my_function, my_list)
+
+filter() takes a function as its first argument and an iterable as its second argument. It returns an iterator, which is a special object that enables you to iterate over the elements of a collection, like a list.
+
+The result of the example above is an iterator containing the elements of my_list for which my_function returns True.
+
+Within the filter_expenses_by_category function, call filter() passing the lambda function you wrote in the previous step as the first argument and the expenses list as the second argument.
+
+*******************************************************************************************************************************************************************************
+
+Step 31
+Finally, return the result of the filter() call.
+
+*******************************************************************************************************************************************************************************
+
+Step 32
+The next step is to define the main function, which will be the entry point of the interactive expense tracker program.
+
+Define a function named main without parameters. Fill the function body with the expenses list you created at the beginning of this project. You will use this list to store the expense records.
+
+*******************************************************************************************************************************************************************************
+
+Step 33
+A while loop is another kind of loop that runs a portion of code as long as a specified condition is True. The loop terminates when the condition becomes False:
+
+Example Code:
+while condition:
+    <code>
+
+Below the expenses list, create a while loop. Use True for the condition, and print the string '\nExpense Tracker' inside the loop body to show the title of the program.
+
+*******************************************************************************************************************************************************************************
+
+Step 34
+The while loop you created in the previous step is an infinite loop that will allow the program to continuously present menu options until the user decides to exit.
+
+After the print() call, add another print() call to print the string '1. Add an expense'.
+
+*******************************************************************************************************************************************************************************
+
+Step 35
+Next, add another print() call and pass the string '2. List all expenses'.
+
+*******************************************************************************************************************************************************************************
+
+Step 36
+Provide the other menu options by printing the following three strings in your while loop: '3. Show total expenses', '4. Filter expenses by category', and '5. Exit'. Keep adding the print() calls in order.
+
+*******************************************************************************************************************************************************************************
+
+Step 37
+The input() function takes a user input and it returns the user input in the form of a string.
+
+Inside your while loop, call the input() function passing the string 'Enter your choice: ' as the argument, and assign the result to a variable named choice.
+
+*******************************************************************************************************************************************************************************
+
+Step 38
+You are going to use conditional statements to check the user's choice. If the choice is '1', it means the user wants to add an expense.
+
+Still in the while loop, under the choice variable, write an if statement to check if choice equals the string '1'. If it's true, it will be the starting point for adding a new expense.
+
+Inside the if statement body, declare a variable amount and assign it an empty input() call.
+
+*******************************************************************************************************************************************************************************
+
+Step 39
+Inside the if statement, you should ask the user to enter the amount for the expense and store it in a variable.
+
+Pass the string 'Enter amount: ' to your empty input() call, so you can store the expense.
+
+*******************************************************************************************************************************************************************************
+
+Step 40
+The amount of the expense needs to be converted before performing any calculation. The float() function takes a string or an integer number as argument and returns a floating point number.
+
+Pass input('Enter amount: ') to the float() function.
+
+*******************************************************************************************************************************************************************************
